@@ -1,0 +1,32 @@
+.parallax-container {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+  }
+  .parallax-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  .c{
+    font-family: Didot Regular;
+        font-size: 24px;
+        color: rgb(252, 249, 249);
+        line-height:1.5;
+        text-align: center;
+        width: 60%;
+        text-align: left;
+        position: absolute;
+        left:10px;
+  }
+  .vl {
+    border-left: 6px solid rgb(253, 252, 251);
+    height: 590px;
+    position: absolute;
+    top: 0px;
+    left:150px;
+  
+  }
